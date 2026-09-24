@@ -9,7 +9,7 @@
 // si falla por CORS, recurre a proxies CORS públicos (menos fiables).
 window.OPENWORKSHEETS_CONFIG = {
   appVersion: '1.34.0',
-  gasUrl: 'https://script.google.com/macros/s/AKfycbxTxNMhU6DsxfnwbtqfLzafj9AvMDYMyDG0qd03vKW8M2grSpZtsjerwO5NtxeWCWbI/exec',
+  gasUrl: 'https://script.google.com/macros/s/AKfycbwL3IpEA36-q4bJ0mMlFFrZhiKyejUzVSpZY103kDJUeIjffImnct15u1vEVSLlNQ0z6w/exec',
   corsProxies: [
     { url: 'https://corsproxy.io/?', encode: true },
     { url: 'https://cors.eu.org/', encode: false }
