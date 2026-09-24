@@ -36,7 +36,9 @@ window.OPENWORKSHEETS_CONFIG = {
   const cfg = window.OPENWORKSHEETS_CONFIG;
   const host = (location.hostname || '').toLowerCase();
 
-  const isOfficial = host === 'openworksheets.github.io';
+  const isOfficial =
+    host === 'openworksheets.github.io' ||
+    host === 'apex-ammar.github.io';
   const isLocal =
     location.protocol === 'file:' ||
     host === '' ||
